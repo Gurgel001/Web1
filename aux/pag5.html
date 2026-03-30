@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form>
+        <label for="iptNomeID" id="lblNome">Nome: </label>
+        <input type="text" id="iptNomeID" name="iptNomeName" placeholder="Nome Completo">
+        <label for="iptPassID" id="lblPass">Senha: </label>
+        <input type="password" id="iptPassID" name="iptPassName">
+        <br>
+
+        <span>Qual o seu semestre no Curso Técnico em Informática? </span><br>
+        <input type="radio" id="iptSemestre1" name="semestre" value="1">
+        <label for="iptSemestre1">Primeiro Semestre</label><br>
+        <input type="radio" id="iptSemestre2" name="semestre" value="2">
+        <label for="iptSemestre2">Segundo Semestre</label><br>
+        <input type="radio" id="iptSemestre3" name="semestre" value="3" checked>
+        <label for="iptSemestre3">Terceiro Semestre</label><br>
+        <input type="radio" id="iptSemestre4" name="semestre" value="4">
+        <label for="iptSemestre4">Quarto Semestre</label><br>
+
+
+        <span>Quais assuntos você já estudou? </span> <br>
+        <input type="checkbox" id="iptarqclientserver" value="arqClientServer"> 
+        <label for="iptarqclientserver">Arquitetura cliente servidor</label> <br>
+        <input type="checkbox" id="iptlinux" value="linux"> 
+        <label for="iptlinux">Linux</label> <br>
+        <input type="checkbox" id="iptversioncontrol" value="versioncontrol"> 
+        <label for="iptversioncontrol">Controle de Versões</label> <br>
+
+
+        <!-- Apenas exemplos - Adicionar o label como mostrado acima -->
+        Qual a sua idade? <input type="number"><br>
+
+        Qual o seu email? <input type="email"><br>
+
+        Qual a sua cor favorita? <input type="color"> <br>
+
+        Especifique um valor : <input type="range"> <br>
+
+        Data de nascimento? <input type="date"> <br><br>
+
+        <!-- Exemplo do Select -->
+
+        <label for="sltEstado">Em que estado você nasceu? </label>
+        <!-- <select id="sltEstado" name="sltEstado" multiple> -->
+        <select id="sltEstado" name="sltEstado">
+            <option value="ce">Ceará</option>
+            <option value="sp">São Paulo</option>
+            <option value="rn" selected>Rio Grande do Norte</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="pa">Pará</option>
+        </select>
+
+        <br>
+        <label for="txtComentarios">Comentários: </label><br>
+        <textarea id="txtComentarios" rows="5" cols="50">
+    O HTML é bastante interessante.
+        </textarea>
+
+        <br><br>
+
+        <input type="reset" value="Limpar">
+        <!-- <input type="button" value="Enviar"> -->
+         <input type="submit" value="Enviar">
+    </form>
+
+    
+</body>
+</html>
