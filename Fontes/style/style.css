@@ -1,0 +1,50 @@
+p{
+    font: italic bold 20px arial, Serif;
+
+    color: aquamarine;
+    
+    
+}
+body{
+    background-color: rgb(28, 158, 158);
+}
+h1{
+    color: rgb(67, 18, 146);
+    background-color: beige;
+}
+span{
+    color: beige;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(15, 94, 94, 0.363);
+}
+#span1 {
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(26, 112, 112, 0.486);
+}
+#def1{
+    color: brown;
+    background-color: beige;
+    
+}
+#def2 {
+    color: green;
+    background-color: beige;
+}
+#def3 {
+    color: purple;
+    background-color: beige;
+}
+#p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+#p3{
+    font-family: initial;
+}
