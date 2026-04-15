@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #1f1f1f, #2c2c2c);
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #e63946;
+}
+
+nav {
+    background-color: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+h2 {
+    border-left: 5px solid #e63946;
+    padding-left: 10px;
+}
+
+.img-principal {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #e63946;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #e63946;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 3px solid #e63946;
+}
