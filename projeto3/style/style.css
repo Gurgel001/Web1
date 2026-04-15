@@ -1,0 +1,21 @@
+/* Comentários
+    de 
+        múltiplas
+            linhas
+*/
+
+p {
+    color: blue;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+
+}
+
+h1{
+    text-align: center;
+}   

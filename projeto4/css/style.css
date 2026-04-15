@@ -1,0 +1,53 @@
+p { 
+    
+    /* font-size: 20px; */
+    /* font-size: 12pt; */
+    /* font-size: 50%; */
+    /* font-weight:bold; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    /* font-family: 'Courier New', Courier, monospace; */
+
+    font: italic small-caps bold 12pt "Courier New", Courier, monospace; 
+
+    text-indent: 30px;
+    /* text-decoration: line-through; */
+    text-align: right;
+    text-transform: capitalize;
+    
+}
+
+/* Agrupamento de elementos */
+h1, h2 { 
+    color: white;
+    background-color: black;
+}
+
+.grupoGenerico{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span.grupo1{
+    color: blue;
+}
+
+span.grupo2{
+    color: darkmagenta;
+    background-color: aqua;
+}
+
+#def1 {
+    background-color: beige;
+    color: red;
+}
+
+#def2 {
+    color: green;
+    background-color: beige;
+}
+
+#def3 {
+    color: blueviolet;
+    background-color: beige;
+}
