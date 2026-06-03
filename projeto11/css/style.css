@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* background-color: black; */
+}
+
+#btnIni{
+    padding: 5px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#btnIni:hover{
+    padding: 7px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* font-size: 80%; */
+}
+
+#container{
+    border: 1px solid black;
+    width: 500px;
+    height: 340px;
+    /* background-color: white; */
+}
+
+#info{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/* #spnNumber{
+    margin-left: 30px ;
+} */
+
+#principal{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
